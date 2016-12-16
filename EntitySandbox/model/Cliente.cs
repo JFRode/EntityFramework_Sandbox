@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace EntitySandbox.model
 {
-    public class Produto
+    public class Cliente
     {
         public int Id { get; set; }
-        public string Nome { get; set; }
+        public string nome { get; set; }
+        public string cpf { get; set; }
     }
 }

@@ -55,13 +55,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="application\ClienteAplicacao.cs" />
     <Compile Include="application\ProdutoAplicacao.cs" />
     <Compile Include="context\DbContext.cs" />
     <Compile Include="Migrations\201612132357114_InitialCreate.cs" />
     <Compile Include="Migrations\201612132357114_InitialCreate.Designer.cs">
       <DependentUpon>201612132357114_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201612162310546_AdicionadoCliente.cs" />
+    <Compile Include="Migrations\201612162310546_AdicionadoCliente.Designer.cs">
+      <DependentUpon>201612162310546_AdicionadoCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="model\Cliente.cs" />
     <Compile Include="model\Produto.cs" />
     <Compile Include="view\FormAlterarProduto.cs">
       <SubType>Form</SubType>
@@ -91,6 +97,9 @@
     </Compile>
     <EmbeddedResource Include="Migrations\201612132357114_InitialCreate.resx">
       <DependentUpon>201612132357114_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612162310546_AdicionadoCliente.resx">
+      <DependentUpon>201612162310546_AdicionadoCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

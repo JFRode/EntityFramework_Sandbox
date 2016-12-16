@@ -11,6 +11,5 @@ namespace EntitySandbox.context
     public class DbContext : System.Data.Entity.DbContext
     {
         public DbSet<Produto> Produtos { get; set; }
-        public DbSet<Cliente> Clientes { get; set; }
     }
 }
